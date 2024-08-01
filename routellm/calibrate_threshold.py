@@ -8,7 +8,9 @@ from tqdm import tqdm
 
 from routellm.routers.routers import ROUTER_CLS
 
+
 tqdm.pandas()
+# tqdm.pandas()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
